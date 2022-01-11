@@ -1,0 +1,28 @@
+{
+  "name": "@alwaysmeticulous/test-interview",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "author": {
+    "name": "The Meticulous Team"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js","ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    }
+  }
+}

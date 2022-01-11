@@ -1,0 +1,6 @@
+run = ["yarn", "test"]
+
+entrypoint = "README.md"
+
+[packager]
+language = "nodejs"
