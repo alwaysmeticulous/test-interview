@@ -3,7 +3,7 @@ run = ["yarn", "test"]
 entrypoint = "README.md"
 
 [packager]
-language = "typescript"
+language = "nodejs"
 
 [languages.typescript]
 pattern = "**/*.ts"
