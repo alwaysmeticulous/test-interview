@@ -1,9 +1,9 @@
-import { hello } from "./main";
+import { hello } from './main';
 
-describe("hello()", () => {
+describe('hello()', () => {
   it("should return 'Hello, Meticulous!'", () => {
     const result = hello();
 
-    expect(result).toBe("Hello, Meticulous!");
+    expect(result).toBe('Hello, Meticulous!');
   });
 });
